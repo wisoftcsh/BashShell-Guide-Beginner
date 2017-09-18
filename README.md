@@ -1,6 +1,5 @@
 # Bash Shell Start Guide
-===
- Installation environment
+Installation environment
 ---
  - MacOS
  
