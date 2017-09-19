@@ -556,8 +556,8 @@ done
 	
 	if [ $# -ne $EXPECTED_ARGS ]
 	then
-			 echo "Usage: $0 dbname"
-			  exit $E_BADARGS
+	  echo "Usage: $0 dbname"
+	  exit $E_BADARGS
 	fi
 	
 	$MYSQL -uroot -p -e "$SQL"
@@ -589,8 +589,8 @@ done
 	
 	if [ $# -ne $EXPECTED_ARGS ]
 	then
-		 echo "Usage: $0 dbname"
-		  exit $E_BADARGS
+	  echo "Usage: $0 dbname"
+	  exit $E_BADARGS
 	fi
 
 	$MYSQL -uroot -p -e "$SQL"
