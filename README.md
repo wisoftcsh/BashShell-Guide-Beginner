@@ -312,7 +312,7 @@ declare -f 함수이름
 |-	|빼기
 |*	|곱하기
 |/	|나누기
-|++|	누승(exponentiation)
+|**|	누승(exponentiation)
 |%	|modulo 나 mod (정수 나누기에서 나머지 값)
 |+=|	상수값 만큼 증가(plus-equal)
 |-=|	상수값 만큼 감소(minus-equal)
