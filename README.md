@@ -595,10 +595,10 @@ done
 		 
 		 ```
 		 # Default Homebrew MySQL server config
-   [mysqld]
-   secure-file-priv="write CSV file path"
-      # Only allow connections from localhost
-   bind-address = 127.0.0.1
+		   [mysqld]
+		   secure-file-priv="write CSV file path"
+		      # Only allow connections from localhost
+		   bind-address = 127.0.0.1
 		 ```
 
 		- 저장 후 mysql 서버를 재실행 한다
